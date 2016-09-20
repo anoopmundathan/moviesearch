@@ -23,7 +23,7 @@ $(document).ready(function() {
 						if (movie.Poster !== 'N/A') { // Display movie poster if it is available
 							innerHTML += "<img class='movie-poster' src=" + movie.Poster + "></div></a>";
 						} else { //Display a placeholder icon when the API does not return poster data
-							innerHTML += "<i class='material-icons poster-placeholder clearfix'>crop_original</i>";
+							innerHTML += "<i class='material-icons poster-placeholder'>crop_original</i>";
 						}
           				innerHTML += "<span class='movie-title'>" + movie.Title + "</span>";     // Display movie title
           				innerHTML += "<span class='movie-year'>" + movie.Year + "</span></li>";  // Display movie year
