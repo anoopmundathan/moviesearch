@@ -176,6 +176,52 @@ button {
     overflow: hidden;
 }
 
+/* =================================
+  Movie Plot components
+==================================== */
+
+.movie-plot-header {
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 20px;
+  display: none;
+  width: 100%;
+  background: #534847;
+  max-height: 200px;
+}
+
+.search-result {
+  display: inline-block;
+  position: absolute;
+  padding-left: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.movie-plot-poster {
+  margin-top: 20px;
+  position: relative;
+  color: #fff;
+}
+
+.movie-plot-poster img {
+  display: block;
+  margin: 10px auto 0px;
+  border: 10px solid #fff;
+}
+
+.movie-plot-wrapper,
+.movie-plot-title,
+.movie-plot-story {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.movie-plot-story {
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
 /* ================================= 
   Helper Classes
 ==================================== */
@@ -230,10 +276,42 @@ button {
     transform: scale(1.1);
   }
 
+ /* Movie plot */
+
  .movie-title {
     padding-right: 1.25em;
  }
 
+ .movie-plot-poster {
+    width: 30%;
+ }
+
+ .movie-plot-poster img {
+    margin-left: 30px;
+    margin-right: 50px;
+    float: left;
+  }
+
+  .movie-plot-wrapper {
+    width: 100%;
+  }
+
+  .movie-plot-title  {
+    margin: 0;
+    color: #fff;
+  }
+
+  .movie-plot-title p {
+    margin: 0;
+  }
+  .movie-plot-title h1 {
+    margin-bottom: 0;
+  }
+
+  .movie-plot-story {
+    margin-top: 80px;
+    width: 90%;
+  }
 }
 
 @media (min-width: 769px) {
