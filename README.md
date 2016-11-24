@@ -8,8 +8,8 @@
 ```
 $ git clone https://github.com/anoopmundathan/moviesearch.git
 $ cd moviesearch
+````
+### Open browser and visit 
 ```
-### Run
-```
-$ open index.html
+index.html
 ```
